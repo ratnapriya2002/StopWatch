@@ -1,0 +1,90 @@
+/* Write your CSS here */
+/* Write your CSS here */
+body {
+  padding: 0px;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.main-bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.time-content {
+  background-color: #ffffff;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: Roboto;
+  text-align: center;
+  padding-top: 30px;
+  align-self: center;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.timer-controllers {
+  display: flex;
+}
+
+.timer-controllers-sub {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  background-color: transparent;
+  border: none;
+}
+.icon-size-style {
+  height: 25px;
+  width: 25px;
+}
+.time-control-text {
+  font-family: Roboto;
+  font-weight: bolder;
+  margin: 10px;
+}
+.button-controls {
+  display: flex;
+}
+.set-time-background {
+  background-color: #00d9f5;
+  height: 40px;
+  width: 80px;
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bolder;
+}
+.button-style-control {
+  font-weight: bolder;
+  font-size: xx-large;
+  border: none;
+  background-color: transparent;
+}
